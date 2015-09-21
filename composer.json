@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MyVendor\\MyPackage\\": "src/"
+            "Spitoglou\\SMS\\": "src/"
         }
     }  
 }

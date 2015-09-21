@@ -1,10 +1,10 @@
 <?php
 
-namespace MyVendor\MyPackage;
+namespace Spitoglou\SMS;
 
 use Illuminate\Support\ServiceProvider;
 
-class MyPackageServiceProvider extends ServiceProvider
+class SMServiceProvider extends ServiceProvider
 {
 
     /**
@@ -64,7 +64,7 @@ class MyPackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('MyPackageClass', 'MyVendor\MyPackage\MyPackageClass');
+        $this->app->bind('SMSClass', 'Spitoglou\SMS\SMSClass');
     }
 
 }

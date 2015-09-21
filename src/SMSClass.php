@@ -1,8 +1,8 @@
 <?php
 
-namespace MyVendor\MyPackage;
+namespace Spitoglou\SMS;
 
-class MyPackageClass
+class SMSClass
 {
     public static function sayHi()
     {
