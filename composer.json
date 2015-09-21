@@ -1,0 +1,21 @@
+{
+    "name": "spitoglour/doluna-sms",
+    "license": "MIT",
+    "description": "A package for sending SMS via Doluna service API",
+    "keywords": [],    
+    "authors": [
+        {
+            "name": "Stavros Pitoglou",
+            "email": "s.pitoglou@csl.gr"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\MyPackage\\": "src/"
+        }
+    }  
+}
