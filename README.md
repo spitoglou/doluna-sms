@@ -1,57 +1,11 @@
-# Laravel Package Boilerplate
-Laravel 5 Package Boilerplate
+# Doluna API SMS Sender Package
 
-### Requirements
-    Laravel >=5.1
-    PHP >= 5.5.9 
-    
-## Installation
+[![GitHub license](https://img.shields.io/github/license/spitoglou/doluna-sms.svg)]()
+[![GitHub release](https://img.shields.io/github/release/spitoglou/doluna-sms.svg)]()
+[![Github Releases](https://img.shields.io/github/downloads/spitoglou/doluna-sms/latest/total.svg)]()
 
-1. Make your vendor directory under your project's main vendor directory.
-    ```
-    cd vendor
-    mkdir my-vendor
-    ```
-    
-2. Clone the package's boilerplate from github repo into your vendor's package directory.
-    ```
-    git clone https://github.com/sohelamin/laravel-package-boilerplate.git my-package
-    ```
+###Author 
+Stavros Pitoglou
 
-3. Add your package dir to your project's main **composer.json** file.
-    ```
-    "psr-4": {
-        "App\\": "app/",
-        "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package/src"
-    }
-    ```
-  Note: When you will submit your package to **packagist.org** for composer package then you don't need to follow above instruction #3.
-
-4. Add service provider into **/config/app.php** file.
-    ```php
-    'providers' => [
-        ...
-    
-        MyVendor\MyPackage\MyPackageServiceProvider::class,
-    ],
-	```
-
-5. Navigate to your project directory and run.
-    ```
-    composer dump-autoload
-    composer update
-    ```
-
-
-## Usage
-
-See the bellow snippets.
-
-```php
-$myPackage = $this->app['MyPackageClass'];
-echo $myPackage::sayHi();
-```
-
-##Author
-
-<a href="http://www.sohelamin.com">Sohel Amin</a>
+###License
+MIT
