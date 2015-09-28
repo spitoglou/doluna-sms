@@ -24,10 +24,10 @@ class DolunaTest extends PHPUnit_Framework_TestCase
     }
 
     /** @test */
-    public function itSendsTestSMS()
+    /*public function itSendsTestSMS()
     {
         $recipient = new \Spitoglou\SMS\SMSRecipient('306973888331');
         echo \Spitoglou\SMS\SMSClass::SMSSend($recipient, 'Δοκιμή από Laravel Package');
-    }
+    }*/
 
 }
