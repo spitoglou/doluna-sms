@@ -41,7 +41,7 @@ php artisan vendor:publish
 Example of quick (and a little *dirty*) implementation, right from a route closure:
 ```php
 Route::get('smsSend/{message}', function ($message) {
-    $recipient = new \Spitoglou\SMS\SMSRecipient('306973888331');
+    $recipient = new \Spitoglou\SMS\SMSRecipient('306973######'); //12 digit international number here (30 stands for Greece etc.)
     return \Spitoglou\SMS\SMSClass::SMSSend($recipient, $message);
 });
 ```
