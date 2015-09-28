@@ -4,7 +4,7 @@ namespace Spitoglou\SMS;
 
 use Illuminate\Support\ServiceProvider;
 
-class SMServiceProvider extends ServiceProvider
+class SMSServiceProvider extends ServiceProvider
 {
 
     /**
@@ -29,7 +29,7 @@ class SMServiceProvider extends ServiceProvider
 
         // Publishing configs
         $this->publishes([
-            __DIR__ . '/config/my-package.php' => config_path('my-package.php'),
+            __DIR__ . '/config/sms.php' => config_path('sms.php'),
         ]);
 
         // Publishing views
