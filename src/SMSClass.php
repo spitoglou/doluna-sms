@@ -6,10 +6,6 @@ use GuzzleHttp\Client as HttpClient;
 
 class SMSClass
 {
-    public static function sayHi()
-    {
-        return 'Hello World!';
-    }
 
     /**
      * @param SMSRecipient $recipient
