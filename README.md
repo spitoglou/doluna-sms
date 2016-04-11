@@ -18,7 +18,7 @@ Require this package with composer:
 (to be completed when this will be published)
 
 ```
-composer require ...
+composer require spitoglou/doluna-sms
 ```
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
