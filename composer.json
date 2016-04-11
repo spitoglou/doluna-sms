@@ -1,5 +1,5 @@
 {
-    "name": "spitoglour/doluna-sms",
+    "name": "spitoglou/doluna-sms",
     "license": "MIT",
     "description": "A package for sending SMS via Doluna service API",
     "keywords": [],    
