@@ -1,21 +1,25 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 23/9/2015
- * Time: 12:29 πμ
- */
 
 namespace Spitoglou\SMS;
 
-
-use Exception;
 use InvalidArgumentException;
 
+/**
+ * Class SMSRecipient
+ *
+ * The recipient's Value Object
+ * @package Spitoglou\SMS
+ */
 class SMSRecipient
 {
     protected $number;
 
+    /**
+     * SMSRecipient constructor.
+     *
+     * Gets the recipient's phone number and validates
+     * @param string $number
+     */
     public function __construct($number = '')
     {
         $this->number = $number;
@@ -23,6 +27,8 @@ class SMSRecipient
     }
 
     /**
+     * Validates that the recipient's phone number is 12 digits long (as required by the service)
+     *
      * @throws \InvalidArgumentException
      */
     protected function validateNumber()
@@ -32,6 +38,10 @@ class SMSRecipient
         }
     }
 
+    /**
+     * __toString
+     * @return string
+     */
     public function __toString()
     {
         return $this->number;

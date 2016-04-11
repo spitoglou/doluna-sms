@@ -4,6 +4,10 @@ namespace Spitoglou\SMS;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class SMSServiceProvider
+ * @package Spitoglou\SMS
+ */
 class SMSServiceProvider extends ServiceProvider
 {
 
@@ -21,40 +25,10 @@ class SMSServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        // Loading routes
-        if (!$this->app->routesAreCached()) {
-            require __DIR__ . '/routes.php';
-        }
-
         // Publishing configs
         $this->publishes([
             __DIR__ . '/config/sms.php' => config_path('sms.php'),
         ]);
-
-        // Publishing views
-        //$this->publishes([
-        //    __DIR__ . '/views' => base_path('resources/views'),
-        //]);
-
-        // Loading translations
-        //$this->loadTranslationsFrom(__DIR__ . '/translations', 'my-package');
-
-        // Publishing public assets
-        //$this->publishes([
-        //    __DIR__ . '/assets' => public_path('spitoglou/doluna-sms'),
-        //], 'public');
-
-        // Publishing migrations
-        //$this->publishes([
-        //    __DIR__ . '/migrations' => database_path('/migrations'),
-        //], 'migrations');
-
-        // Publishing seeds
-        //$this->publishes([
-        //    __DIR__ . '/seeds' => database_path('/seeds'),
-        //], 'migrations');
-
     }
 
     /**
