@@ -2,7 +2,11 @@
     "name": "spitoglou/doluna-sms",
     "license": "MIT",
     "description": "A package for sending SMS via Doluna service API",
-    "keywords": [],    
+    "keywords": [
+        "laravel",
+        "sms",
+        "doluna"
+    ],
     "authors": [
         {
             "name": "Stavros Pitoglou",
