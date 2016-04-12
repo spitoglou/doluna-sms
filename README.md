@@ -1,13 +1,13 @@
 # Doluna API SMS Sender Package
 
+[![Build Status](https://travis-ci.org/spitoglou/doluna-sms.svg?branch=master)](https://travis-ci.org/spitoglou/doluna-sms)
 [![GitHub license](https://img.shields.io/github/license/spitoglou/doluna-sms.svg)]()
 [![GitHub release](https://img.shields.io/github/release/spitoglou/doluna-sms.svg)]()
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spitoglou/doluna-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spitoglou/doluna-sms/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/spitoglou/doluna-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/spitoglou/doluna-sms/build-status/master)
 [![Latest Stable Version](https://poser.pugx.org/spitoglou/doluna-sms/version)](https://packagist.org/packages/spitoglou/doluna-sms)
-[![Total Downloads](https://poser.pugx.org/spitoglou/doluna-sms/downloads)](https://packagist.org/packages/spitoglou/doluna-sms)
 [![Latest Unstable Version](https://poser.pugx.org/spitoglou/doluna-sms/v/unstable)](//packagist.org/packages/spitoglou/doluna-sms)
-[![License](https://poser.pugx.org/spitoglou/doluna-sms/license)](https://packagist.org/packages/spitoglou/doluna-sms)
+[![Total Downloads](https://poser.pugx.org/spitoglou/doluna-sms/downloads)](https://packagist.org/packages/spitoglou/doluna-sms)
+
 
 > **This is a package for sending SMS messages utilizing the Doluna SMS service API.**
 
