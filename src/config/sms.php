@@ -15,4 +15,29 @@ return [
      */
 
     'dolunaAPIKey' => 'YourApiKeyHere',
+
+    /*
+     |--------------------------------------------------------------------------
+     | Sender ID
+     |--------------------------------------------------------------------------
+     |
+     | The Sender that will appear on the sent message
+     |
+     */
+    
+    'senderId' => 'Stavros CSS',
+
+    /*
+     |--------------------------------------------------------------------------
+     | Misc Settings
+     |--------------------------------------------------------------------------
+     |
+     | Do not edit if you don't know what toy are doing!!
+     |
+     */
+
+    'clientref' => 'abcdef1234',
+    'dr' => 'bar',
+    'output' => 'json',
+    'type' => 'unicode',
 ];

@@ -29,13 +29,13 @@ class SMSClass
             [
                 'query' => [
                     'api_service_key' => config('sms.dolunaAPIKey'),
-                    'msg_senderid' => 'Stavros CSSA',
+                    'msg_senderid' => config('sms.senderId'),
                     'msg_to' => "{$recipient}",
                     'msg_text' => $send,
-                    'msg_clientref' => 'abcdef123456',
-                    'msg_dr' => 'bar',
-                    'output' => 'json',
-                    'type' => 'unicode',
+                    'msg_clientref' => config('sms.clientref'),
+                    'msg_dr' => config('sms.dr'),
+                    'output' => config('sms.output'),
+                    'type' => config('sms.type'),
                 ],
                 'verify' => false
             ]
